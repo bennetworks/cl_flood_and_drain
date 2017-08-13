@@ -40,6 +40,7 @@ Before:
 ```
 cumulus@spine01:~$ net show route ospf | grep 172.16.1.0 -A 1
 O>* 172.16.1.0/24 [110/20] via 10.0.0.11, swp1 onlink, 00:02:07
-  *                        via 10.0.0.12, swp2 onlink, 00:02:07```
+  *                        via 10.0.0.12, swp2 onlink, 00:02:0
+```
 
 
