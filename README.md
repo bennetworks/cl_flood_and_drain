@@ -19,6 +19,11 @@ What does it do?
 
 Topology
 --------
+Use Vagrant to setup and deploy the "Cumulus Linux Demo Framework" on your virtualization platform (KVM, Virtualbox, etc)
+https://github.com/CumulusNetworks/cldemo-vagrant
+
+Topology
+--------
 
 ```
      +------------+       +------------+
