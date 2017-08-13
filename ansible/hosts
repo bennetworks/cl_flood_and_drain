@@ -11,6 +11,7 @@ oob
 
 [servers]
 server01
+server02
 
 [edge]
 edge01

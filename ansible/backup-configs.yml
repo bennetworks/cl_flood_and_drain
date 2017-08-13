@@ -16,6 +16,4 @@
   tasks:
   - name: fetch interfaces
     fetch: src=/etc/network/interfaces dest=ospf-unnumbered-flood-drain/{{ansible_hostname}}/ flat=yes
-    async: 1
-    poll: 0
     ignore_errors: true
