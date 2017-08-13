@@ -1,5 +1,27 @@
 # cl_flood_and_drain
 
+```
+     +------------+       +------------+
+     | spine01    |       | spine02    |
+     |            |       |            |
+     +------------+       +------------+
+     swp1 |    swp2 \   / swp1    | swp2
+          |           X           |
+    swp51 |   swp52 /   \ swp51   | swp52
+     +------------+       +------------+
+     | leaf01     |       | leaf02     |
+     |            |       |            |
+     +------------+       +------------+
+     swp1 | .1                 .2 | swp2
+          |     172.16.1.0/24     |
+     eth1 |                       | eth2
+     +------------+       +------------+
+     | server01   |       | server02   |
+     |172.16.1.101|       |172.16.1.101|
+     +------------+       +------------+
+```
+Note: 172.16.1.101 used on both hosts for proof of concept
+
 1. Ask which leaf router to decomission 
 
 2. Determine if networks advertised on router are passing device using netflow
