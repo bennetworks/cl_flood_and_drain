@@ -6,7 +6,7 @@
 
 3. Determine if networks advertised on router are seen on another same tier device (i.e. another leaf) due to ECMP (validate with netflow). Validate if flow transits other router bidirectionally.
 
-4. Configure ospf max-metric router-lsa to encourage all traffic to take path around router if available
+4. Configure ospf max-metric (RFC3137, OSPF Stub Router Advertisement support) to encourage all traffic to take path around router if available
 
 5. Verify that traffic for advertised prefixes has stopped with netflow
 
