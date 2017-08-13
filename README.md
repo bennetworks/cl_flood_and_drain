@@ -3,8 +3,8 @@
 1. Ask which leaf router to decomission 
 
 2. Determine if networks advertised on router are passing device using netflow
-    a. If yes, continue
-    b. If no, abort 
+    * If yes, continue
+    * If no, abort 
 
 3. Determine if networks advertised on router are seen on another same tier device (i.e. another leaf) due to ECMP (validate with netflow). Validate if flow transits other router bidirectionally.
 
