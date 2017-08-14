@@ -17,10 +17,18 @@ What does it do?
 
 6. Notify the user that it is safe to perform maintentance on router
 
-Topology
+Prerequisites
 --------
 Use Vagrant to setup and deploy the "Cumulus Linux Demo Framework" on your virtualization platform (KVM, Virtualbox, etc)
 https://github.com/CumulusNetworks/cldemo-vagrant
+
+Usage
+--------
+0. Deploy the prerequisite "Cumulus Linux Demo Framework" above
+1. ssh to the oob-mgmt-server with: ```vagrant ssh oob-mgmt-server```
+2. Run the setup_flowd.sh script to download, compile, and install flowd and its respective python library
+3. Verify the before/after routing configurations with ```ssh spine01``` then ```net show route ospf | grep 172.16.1.0 -A 1```
+4. to be continued...
 
 Topology
 --------
