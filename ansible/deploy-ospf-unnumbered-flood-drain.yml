@@ -12,6 +12,9 @@
       command: ifreload -a
     - name: reload quagga
       service: name=quagga state=restarted
+    - name: copy hsflowd conf
+      copy: src=ospf-unnumbered-flood-drain/{{ansible_hostname}}/hsflowd.conf dest=/etc/
+
 
 - hosts: servers
   become: yes

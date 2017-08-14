@@ -11,6 +11,9 @@
   - name: fetch Quagga conf
     fetch: src=/etc/quagga/Quagga.conf dest=ospf-unnumbered-flood-drain/{{ansible_hostname}}/ flat=yes
 
+  - name: fetch hsflowd conf
+    fetch: src=/etc/hsflowd.conf dest=ospf-unnumbered-flood-drain/{{ansible_hostname}}/ flat=yes
+
 - hosts: servers
   become: yes
   tasks:
