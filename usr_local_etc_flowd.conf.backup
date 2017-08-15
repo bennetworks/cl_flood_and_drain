@@ -1,0 +1,9 @@
+##
+##  flowd.conf -- flowd(8) configuration
+##
+
+listen on 192.168.0.254:6343
+flow source 192.168.0.0/16
+accept all
+store ALL
+logfile "/var/log/flowd"
