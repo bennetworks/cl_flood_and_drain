@@ -701,8 +701,8 @@ configure:4708: $? = 0
 configure:4736: result: none required
 configure:4764: checking for closefrom
 configure:4820: gcc -o conftest -g -O2 -fPIC -D_GNU_SOURCE   conftest.c  >&5
-/tmp/ccPbHd2L.o: In function `main':
-/home/cumulus/flowd-0.9.1/conftest.c:61: undefined reference to `closefrom'
+/tmp/ccNNmKJc.o: In function `main':
+/home/cumulus/cl_flood_and_drain/flowd-0.9.1/conftest.c:61: undefined reference to `closefrom'
 collect2: error: ld returned 1 exit status
 configure:4826: $? = 1
 configure: failed program was:
@@ -773,8 +773,8 @@ configure: failed program was:
 configure:4844: result: no
 configure:4764: checking for betoh64
 configure:4820: gcc -o conftest -g -O2 -fPIC -D_GNU_SOURCE   conftest.c  >&5
-/tmp/ccUmaQtQ.o: In function `main':
-/home/cumulus/flowd-0.9.1/conftest.c:61: undefined reference to `betoh64'
+/tmp/cctJfqhe.o: In function `main':
+/home/cumulus/cl_flood_and_drain/flowd-0.9.1/conftest.c:61: undefined reference to `betoh64'
 collect2: error: ld returned 1 exit status
 configure:4826: $? = 1
 configure: failed program was:
@@ -845,8 +845,8 @@ configure: failed program was:
 configure:4844: result: no
 configure:4764: checking for htobe64
 configure:4820: gcc -o conftest -g -O2 -fPIC -D_GNU_SOURCE   conftest.c  >&5
-/tmp/ccqnC4RR.o: In function `main':
-/home/cumulus/flowd-0.9.1/conftest.c:61: undefined reference to `htobe64'
+/tmp/ccSI6ojk.o: In function `main':
+/home/cumulus/cl_flood_and_drain/flowd-0.9.1/conftest.c:61: undefined reference to `htobe64'
 collect2: error: ld returned 1 exit status
 configure:4826: $? = 1
 configure: failed program was:
@@ -941,8 +941,8 @@ configure:4826: $? = 0
 configure:4844: result: yes
 configure:4764: checking for setproctitle
 configure:4820: gcc -o conftest -g -O2 -fPIC -D_GNU_SOURCE   conftest.c  >&5
-/tmp/ccYeQ3Xb.o: In function `main':
-/home/cumulus/flowd-0.9.1/conftest.c:67: undefined reference to `setproctitle'
+/tmp/ccjvtAdI.o: In function `main':
+/home/cumulus/cl_flood_and_drain/flowd-0.9.1/conftest.c:67: undefined reference to `setproctitle'
 collect2: error: ld returned 1 exit status
 configure:4826: $? = 1
 configure: failed program was:
@@ -1035,8 +1035,8 @@ configure:4826: $? = 0
 configure:4844: result: yes
 configure:4764: checking for strlcpy
 configure:4820: gcc -o conftest -g -O2 -fPIC -D_GNU_SOURCE   conftest.c  >&5
-/tmp/ccCRoC8s.o: In function `main':
-/home/cumulus/flowd-0.9.1/conftest.c:71: undefined reference to `strlcpy'
+/tmp/ccSmlBt1.o: In function `main':
+/home/cumulus/cl_flood_and_drain/flowd-0.9.1/conftest.c:71: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:4826: $? = 1
 configure: failed program was:
@@ -1117,8 +1117,8 @@ configure: failed program was:
 configure:4844: result: no
 configure:4764: checking for strlcat
 configure:4820: gcc -o conftest -g -O2 -fPIC -D_GNU_SOURCE   conftest.c  >&5
-/tmp/cck145Ix.o: In function `main':
-/home/cumulus/flowd-0.9.1/conftest.c:71: undefined reference to `strlcat'
+/tmp/ccaqH0uW.o: In function `main':
+/home/cumulus/cl_flood_and_drain/flowd-0.9.1/conftest.c:71: undefined reference to `strlcat'
 collect2: error: ld returned 1 exit status
 configure:4826: $? = 1
 configure: failed program was:
