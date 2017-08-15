@@ -15,6 +15,14 @@
     - name: copy hsflowd conf
       copy: src=ospf-unnumbered-flood-drain/{{ansible_hostname}}/hsflowd.conf dest=/etc/
 
+- hosts: leaf
+  become: yes
+  tasks:
+    - name: Enable and restart hsflowd after pushing conf file
+      systemd:
+        name: hsflowd
+        state: restarted
+        enabled: yes
 
 - hosts: servers
   become: yes
